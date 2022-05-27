@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MouseKeyHook/5.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Gma.System.MouseKeyHook.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Gma.System.MouseKeyHook.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MouseKeyHook/5.6.0": {
+      "sha512": "xDNM10IfRED0+k78O9VvY0/suqeNJVg6GttEFPP/N4CEMujwVrfU+UatFN7Rb+gdjqIfhKblz7/nG3pUQmHaJg==",
+      "type": "package",
+      "path": "mousekeyhook/5.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Gma.System.MouseKeyHook.dll",
+        "mousekeyhook.5.6.0.nupkg.sha512",
+        "mousekeyhook.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MouseKeyHook >= 5.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Iiro.Polso\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Iiro.Polso\\RiderProjects\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectName": "WinFormsApp1",
+      "projectPath": "C:\\Users\\Iiro.Polso\\RiderProjects\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\Iiro.Polso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Iiro.Polso\\RiderProjects\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Iiro.Polso\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MouseKeyHook": {
+            "target": "Package",
+            "version": "[5.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\Iiro.Polso\\.dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MouseKeyHook 5.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MouseKeyHook",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
